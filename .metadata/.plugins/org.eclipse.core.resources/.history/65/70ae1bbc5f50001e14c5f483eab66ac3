@@ -1,0 +1,5 @@
+package com.abhi.loginapp.config;
+
+public class SecurityConfig {
+
+}

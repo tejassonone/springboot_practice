@@ -1,0 +1,111 @@
+     User table
+
+1) id
+2) first name
+3) last name
+4) email
+country code (opt)
+5) mobileno
+6) username
+7) password
+--------
+8) birthdate
+9) gender
+10) country
+12) state
+--------
+13) where did you hear about us(YT, G, Inst, FB, Ref., Cam amb, other) (dropdown box)
+14) what do you looking for?(Admissions, Sholarships, Visa, Jobs)(selection box)
+15) createdAt(timestamp)
+-----
+agreement accept
+submit
+
+#) city
+#) country interested
+
+
+user table 
+1) id 
+2) first name
+3) last name
+4) email 
+5) password
+6) isAdmin
+
+PersonalInfo table
+country code (opt)
+1) mobileno
+2) birthdate
+3) gender
+4) country
+5) state
+6) city
+7) where did you hear about us(YT, G, Inst, FB, Ref., Cam amb, other) (dropdown box)
+8) what do you looking for?(Admissions, Sholarships, Visa, Jobs)(selection box)
+9) createdAt(timestamp)
+
+
+
+
+Service table
+1) id
+2) service name
+3) sevice desciption
+4) List<desc_point>
+5) createdAt(timestamp)
+6) updatedAt(timestamp)
+7) amount
+
+
+Book Table
+1)id
+2)user_id
+3)service_id
+4)createdat
+5)status
+
+
+
+Reviews table
+1) id
+2) reviewer name
+3) review desc
+4) timestamp
+5) rating
+
+
+
+
+
+
+customer
+1) customer can view all services and other info without registeration
+2) to access those services customer need to register himself/herself of this platform
+3) customer have to all info while registration
+4) customer can raise his/her doubt through chat section
+5) after utilizing the service customer need to pay for service
+
+
+
+Admin
+1)admin can view all data of user
+2)admin can perform crud operation on services
+3)admin can view dashboard included total, pending, completed and rejected request
+
+
+
+
+
+implement chatbot for conversation between customer and admin
+
+implement payment gateway to pay for service
+
+
+
+
+
+
+
+
+
